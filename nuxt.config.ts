@@ -45,7 +45,7 @@ export default defineNuxtConfig({
       kvBatchLimit: '50',
       maxUrlLength: '16384',
       homeURL: process.env.NUXT_HOME_URL || '',
-      linkProxyEnabled: false,
+      linkProxyEnabled: true,
     },
   },
   routeRules: {
